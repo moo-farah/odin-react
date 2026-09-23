@@ -1,0 +1,10 @@
+[
+    {
+      "id": "1",
+      "title": "Software engineering",
+      "category": "IT",
+      "salary": 180000,
+      "tags": ["Remote", "Hybrid", "Office"],
+      "description": "Software engineering solving the User Interface."
+    }
+]
