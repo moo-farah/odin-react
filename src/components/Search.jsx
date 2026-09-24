@@ -3,7 +3,7 @@ import data from '../data.json'
 
 const Search = () => {
   const [query, setQuery] = useState('');
-
+  
   const results = useMemo(() => {
     const q = query.trim().toLocaleLowerCase();
     if (!q) return data;
@@ -13,7 +13,8 @@ const Search = () => {
   }, [query])
   return (
     <div>
-      <input 
+      <input
+      className="text-md bg-[#121212] text-white px-6 py-3 rounded-2xl outline-none" 
       type="text"
       value={query}
       onChange={(e) => setQuery(e.target.value)}
