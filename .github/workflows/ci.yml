@@ -1,0 +1,37 @@
+name: Odin CI/CD Pipeline
+
+on: 
+  push: 
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+
+  strategy:
+    matrix:
+      node-version: ['29.9.0']
+
+    steps:
+    #1. Checkout your source code repositiory
+      - name: Checkout Repositiory
+      uses:  actions/Checkout@v4
+
+    #2. Set up Node.js environment
+    - name: Set up Node.js ${{matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    
+    #3. Install project dependencies securely
+    - name: Install dependencies
+      run: npm CI
+
+    #4. Run the build script (Vite/React build)
+    -name: Build project
+    run: npm run build
+
+    
