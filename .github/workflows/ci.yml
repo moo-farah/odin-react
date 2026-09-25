@@ -1,4 +1,4 @@
-name: Odin CI/CD Pipeline
+name: Frontend CI/CD Pipeline
 
 on:
   push:
@@ -21,7 +21,6 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies
-        uses: actions/cache@v4 # Optional safeguard, but npm ci handles cache automatically via setup-node
         run: npm ci
 
       - name: Build Project
