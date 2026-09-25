@@ -44,7 +44,7 @@ const footerColumns = [
 const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-[#121212] py-16 px-6 lg:px-12">
+    <footer className="w-full bg-[#121212] py-16 px-6 lg:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
 
             {/* Navigation Columns */}
@@ -59,7 +59,7 @@ const Footer = () => {
                           <li key={linkIndex}>
                             <a 
                               href={link.href}
-                              className="text-[#B3B3B3] text-sm hover:text-white"
+                              className="text-[#B3B3B3] text-sm hover:text-white hover:underline"
                               >
                                 {link.name}
                             </a>
