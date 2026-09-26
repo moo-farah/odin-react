@@ -5,6 +5,8 @@ const Button = ( {
     className = '', 
     ...props
 }) => {
+    
+
     // Define base styles applied to all button
     const baseStyles = "inline-flex items-center justify-center font-medium transition-colors rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2"
 
@@ -24,7 +26,8 @@ const Button = ( {
 
     const variantStyles = variants[variant] || variants.primary;
     const sizeStyles = sizes[size] || size.md;
-  return (
+    
+    return (
     <button className={`${baseStyles} ${variantStyles} ${sizeStyles} ${className}`}
         {...props}
     >

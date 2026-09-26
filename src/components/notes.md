@@ -15,3 +15,11 @@ Any changes made to this data will only affect child components using the data, 
 **Prop destructuring**
 
 Used to extract specific properties from the props object directly in a component's parameters list.
+
+### Rendering
+Is the process of React taking your components code (JSX) and turning it into actual DOM elements the browser displays, then keeping that DOM in sync whenever data changes.
+
+ - Rendering list of components in JSX
+ - Conditionally rendering UI: is showing different UI depending on some condition - state, props, or any JS expression
+
+**Rendering:** is not updating the DOM. Rendering is just React doing the math behind the scenes - calling functions and comparing the new UI with the old one (a process called **reconciliation or diffing**)
