@@ -2,6 +2,7 @@ import Footer from "./components/Footer"
 import MainContent from "./components/MainContent"
 import Narbar from "./components/Narbar"
 import { Teams } from "./components/Teams"
+import Todos from "./components/Todos"
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
     <Narbar />
     <MainContent />
     <Teams />
+    <Todos />
     <Footer />
    
    </>

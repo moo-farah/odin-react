@@ -23,3 +23,7 @@ Is the process of React taking your components code (JSX) and turning it into ac
  - Conditionally rendering UI: is showing different UI depending on some condition - state, props, or any JS expression
 
 **Rendering:** is not updating the DOM. Rendering is just React doing the math behind the scenes - calling functions and comparing the new UI with the old one (a process called **reconciliation or diffing**)
+
+### Keys in React
+Are special string attributes you need to incluse when rendering lists of elements.
+They act as unique identifiers for items in an array, helping React keep track of which items have changed, been added, or been removed.
