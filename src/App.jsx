@@ -1,3 +1,4 @@
+import Count from "./components/Count"
 import Footer from "./components/Footer"
 import MainContent from "./components/MainContent"
 import Narbar from "./components/Narbar"
@@ -11,9 +12,9 @@ const App = () => {
     <Narbar />
     <MainContent />
     <Teams />
+    <Count />
     <Todos />
     <Footer />
-   
    </>
     
   )
