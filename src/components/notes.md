@@ -57,3 +57,12 @@ For now, remember that hooks have rules that we need to abide by:
  - It mostly commonly used to directly or manipulate a DOM element (like focusing an input)
 **useMemo:** Performance optimization, caches the result of an expensive calculation
 **useCallback:** caches a function definition so it does't get recreated on every render
+
+## How to deal with side effects
+React need to interact with things outside themselves. These things can be anything from querying data from a server to finding/changing the position of the component on the webpage or even sending some data to a server when necessary
+This interaction with the outside world is called a side-effect.
+
+
+# Class Based Components
+Unlike functional components (which are just JavaScript functions that return JSX),
+a class component is an ES6 class that **extends** React.Component and must include a **render()** methond
