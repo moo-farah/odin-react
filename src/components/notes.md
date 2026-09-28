@@ -66,3 +66,23 @@ This interaction with the outside world is called a side-effect.
 # Class Based Components
 Unlike functional components (which are just JavaScript functions that return JSX),
 a class component is an ES6 class that **extends** React.Component and must include a **render()** methond
+
+### Component LifeCycle Methods
+There are three stages to a component's life:
+ - mounting
+ - updating
+ - unmounting
+
+**Mounting:** (The Birth) This is the phase when the component is created for the very first time, 
+rendered into code, and actually inserted (mounted) into the browser's DOM so the user can see it
+
+**Updating:** (The life & Growth) Once the component is on the screen, things change. The user types in an input, clicks a button, or new props are passed down from a parent component
+
+**Unmounting:** (The Exit/Death) This is the final phase when the component is beigng removed (unmounted) from the screen
+
+**render():** It runs on mount and update of a component. Render should be pure, meaning it doesn't modify components state,
+returns the same thing each time it's called(given the same inputs)
+**componentDidMount():** Is run after the component is mounted (inserted in the DOM tree).
+**componentDidUpdate():** This method is run after a component re-renders. 
+**componentWillUnmount():** This is the last lifecyle method, which called before a component is unmounted and destroyed.
+In this method you should be performing cleanup actions, so that would be cancelling network requests, clearing timers, etc.
