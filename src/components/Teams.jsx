@@ -51,4 +51,6 @@ export const Teams = () => {
   )
 }
 
+export default Teams
+
 

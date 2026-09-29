@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
 
 const Narbar = () => {
@@ -10,10 +11,10 @@ const Narbar = () => {
     };
 
     const NavItems = [
-        { name: 'Products', href: '#products'},
-        { name: 'Resources', href: '#resources'},
-        { name: 'Pricing', href: '#princing'},
-        { name: 'Careers', href: '#careers'},
+        { name: 'Products', href: '/products'},
+        { name: 'Resources', href: '/resources'},
+        { name: 'Pricing', href: '/pricing'},
+        { name: 'Careers', href: '/careers'},
     ];
   return (
     <header className="w-full border-b border-gray-100">
@@ -22,11 +23,11 @@ const Narbar = () => {
             <ul className="flex items-center justify-center gap-6">
                 {NavItems.map((links) => (
                 <li key={links.name}>
-                    <a href={links.href}
+                    <Link to={links.href}
                     className="px-4 py-1.5 hover:bg-gray-100/50 rounded-4xl"
                     >
                         {links.name}
-                    </a>
+                    </Link>
                 </li>
                 ))}
             </ul>
@@ -49,14 +50,14 @@ const Narbar = () => {
                 <ul className="flex flex-col space-y-2 text-base font-medium text-gray-700">
                     {NavItems.map((link) => (
                         <li key={link.name}>
-                            <a 
-                                href={link.href}
+                            <Link 
+                                to={link.href}
                                 onClick={() => setIsopen(false)} // Closes menu on click
                                 className="block hover:text-black transition-colors text-2xl"
                                 >
                                 {link.name}
 
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>

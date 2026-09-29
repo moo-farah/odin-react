@@ -86,3 +86,9 @@ returns the same thing each time it's called(given the same inputs)
 **componentDidUpdate():** This method is run after a component re-renders. 
 **componentWillUnmount():** This is the last lifecyle method, which called before a component is unmounted and destroyed.
 In this method you should be performing cleanup actions, so that would be cancelling network requests, clearing timers, etc.
+
+## React Router
+Navigating between the pages 
+
+### Client-side routing
+It helpd in building single-page applications (SPAs) without refreshing as the user navigates.
