@@ -11,6 +11,7 @@ import Resources from "./pages/Resources"
 import Pricing from "./pages/Pricing"
 import Careers from "./pages/Careers"
 import FetchAPI from "./components/FetchAPI"
+import SimpleRef from "./components/SimpleRef"
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <Count />
             <Todos />
             <LegacyCounter />
+            <SimpleRef />
             <Footer />
           </>
         } />

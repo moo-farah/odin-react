@@ -124,3 +124,15 @@ This hook takes a reducer function and an initial state as arguments, then retur
  - The current state and a dispatch function
 
 The dispatch function receives an action object as argument, which is passed to our reducer function and the returned value from it is used to update the state.
+
+# Refs and Memoization
+**Introduction**
+**The useRef hook**
+It lets you manage a value that's not needed for rendering. They are an alternative to state, as when you want a component to "remember" some information, but you don't want that information to trigger new renders
+
+ - Often used when performing imperative actions or accessing specific elements rendered in the DOM
+
+### DOM Manipulation
+useRef hook comes to the rescue by providing a way to access and interact with those elements.
+
+**useMemo:** hook provides a way to add memoization inside our components. It's used to optimize expensive or complex calculations where it caches the result of a function call and stores it to be used later without recalculating it

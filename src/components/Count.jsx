@@ -14,7 +14,8 @@ const Count = () => {
   console.log('during render:', person);
   return (
     <>
-    <div style={{ padding: '20px' }}>
+    <div className="max-w-7xl mx-auto px-16 py-6">
+    <div style={{ margin: "10px" }}>
       <h1>State Implementation</h1>
       <input
       type="text" 
@@ -31,6 +32,7 @@ const Count = () => {
         onClick={handleIncreaseAge}>
         Increase age
       </button>
+      </div>
     </>
   )
 }
