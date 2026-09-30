@@ -92,3 +92,35 @@ Navigating between the pages
 
 ### Client-side routing
 It helpd in building single-page applications (SPAs) without refreshing as the user navigates.
+
+# Managing State With The Context API
+Context API in React is a feature that allows you to manage the global state of your application without the need to pass data through multiple levels of components using props
+
+#### Implementing the Context API
+There are three key elements in this API that we need to understand:
+* **createContext:** This creates the context, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the **default value** of the context
+
+* **useContext:** Used to consume data from a context object created by createContext. 
+ - We can use this hook inside our component to retrieve the data that we need. Accepts the context object as argument
+
+* **contextObject:** The context object is a component that accepts a prop called value, which is the context value that's going to be passed down to the components no matter how deeply they're nested
+
+### Drawbacks of using Context API
+ 1. It can lead to performance issues: When you update the state in a context, it can cause all components that are consuming that context to re-render, even if the state that they are using hasn't changed.
+ 2. It can make your code harder to follow: With the Context API, it's easier to access the state from any component in your application.
+
+### Potential solutions
+1. Use multiple smaller contexts instead of a single large context
+2. Sometimes Context API might not even be the best solution for the problems that we want to deak with
+3. You can rely on external state management systems like **Zustand** and **Redux**. They have alot of optimizations built-in and are feature rich
+
+# Reducing State
+Reducers are pure functions that take a previous state and an action to return a new state.
+The action is an object with a type property describing what the user did.
+
+**The useReducer hook:**
+React allows us to use reducers in our components through a hook called **useReducer**
+This hook takes a reducer function and an initial state as arguments, then returns an array with two values: 
+ - The current state and a dispatch function
+
+The dispatch function receives an action object as argument, which is passed to our reducer function and the returned value from it is used to update the state.
