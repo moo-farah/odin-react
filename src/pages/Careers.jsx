@@ -4,8 +4,9 @@ const Careers = () => {
 
   const handleClick = (e) => {
     e.preventDefault()
-    console.log('Clicked view open roles')
+    console.log('Clicked view open roles');
   }
+
   return (
     <>
     <div className="max-w-7xl max-auto p-12 flex flex-col items-center justify-center">
