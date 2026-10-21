@@ -38,7 +38,7 @@ const Navbar = () => {
                 </div>
                 <Link
                 to='/'
-                className='inline-flex h-9 items-center px-4 rounded-full bg-white text-[0.875rem] font-medium tracking-[-0.01em] text-[#03225a] transition-colors duration-150 focus-visible:ring-2 focus-visible:ring-white hover:bg-white/90'
+                className='inline-flex h-9 shrink-0 items-center whitespace-nowrap px-4 rounded-full bg-white text-[0.875rem] font-medium tracking-[-0.01em] text-[#03225a] transition-colors duration-150 focus-visible:ring-2 focus-visible:ring-white hover:bg-white/90'
                 >
                     Get started
                 </Link>

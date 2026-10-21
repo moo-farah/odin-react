@@ -1,17 +1,12 @@
 import { Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import MainContent from "./components/MainContent"
-import Teams from "./components/Teams"
-import Count from "./components/Count"
-import Todos from "./components/Todos"
-import LegacyCounter from "./components/LegacyCounter"
 import Footer from "./components/Footer"
 import Products from "./pages/Products"
 import Resources from "./pages/Resources"
 import Pricing from "./pages/Pricing"
 import Careers from "./pages/Careers"
-import FetchAPI from "./components/FetchAPI"
-import SimpleRef from "./components/SimpleRef"
+
 
 const App = () => {
   return (
@@ -21,12 +16,6 @@ const App = () => {
         <Route path="/" element={
           <>
             <MainContent />
-            <FetchAPI />
-            <Teams />
-            <Count />
-            <Todos />
-            <LegacyCounter />
-            <SimpleRef />
             <Footer />
           </>
         } />
