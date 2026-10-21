@@ -20,6 +20,7 @@ const pricingPlans = [
   price: "49",
   description: "For businesses that need more features.",
   features: ["5 active plans", "Up to $1,000 per send", "Priority support"],
+  featured: true,
  },
 
  {
@@ -33,7 +34,8 @@ const pricingPlans = [
 
 const Pricing = () => {
   const [selectedPlan, setSelectedPlan] = useState("Basic");
-  const current = pricingPlans.find((plan) => plan.name === selectedPlan);
+  const current =
+    pricingPlans.find((plan) => plan.name === selectedPlan) ?? pricingPlans[0];
 
   return (
     <>
