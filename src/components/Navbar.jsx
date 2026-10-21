@@ -17,7 +17,7 @@ const Navbar = () => {
             to="/"
             className="flex items-center gap-2 rounded-lg py-1"
             >
-                <img src={logo} sizes={26} priority 
+                <img src={logo} sizes={26}
                 className="w-10 h-10 rounded-full" 
                 alt="LionPlan Logo"
                 />
