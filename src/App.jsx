@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import Narbar from "./components/Narbar"
+import Navbar from "./components/Navbar"
 import MainContent from "./components/MainContent"
 import Teams from "./components/Teams"
 import Count from "./components/Count"
@@ -16,7 +16,7 @@ import SimpleRef from "./components/SimpleRef"
 const App = () => {
   return (
     <>
-      <Narbar />
+      <Navbar />
       <Routes>
         <Route path="/" element={
           <>

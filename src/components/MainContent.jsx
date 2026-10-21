@@ -1,29 +1,16 @@
-import { useEffect, useRef } from "react"
+const SKY =
+  "bg-[linear-gradient(to_bottom,#03225a_0%,#0c3f86_24%,#2f74c4_46%,#7fb6e4_66%,#cfe4f3_82%,#ffffff_100%)]";
 
 const MainContent = () => {
-  const buttonRef = useRef(null);
-
-  useEffect(() => {
-    buttonRef.current.focus();
-    buttonRef.current.textContent = "Hey, I'm different!";
-    let timeout = setTimeout(() => {
-      buttonRef.current.textContent = "Click Me!";
-    }, 2000);
-
-    return () => {
-      clearTimeout(timeout)
-    };
-  }, [])
-
   return (
-    <main className="max-w-7xl mx-auto p-12">
-        <div className="">
-            <h1 className="text-2xl">Send money globally for less</h1>
-        </div>
+    <section className={`${SKY} min-h-screen pt-24`}>
+      <div className="max-w-7xl mx-auto px-6">
+        <h1 className="text-white text-4xl font-semibold">
+          Send money globally for less
+        </h1>
+      </div>
+    </section>
+  );
+};
 
-        <button className="bg-gray-900 text-white px-4 py-2 mt-4 rounded-lg" ref={buttonRef}>Click me</button>
-    </main>
-  )
-}
-
-export default MainContent
+export default MainContent;
