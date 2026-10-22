@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { ArrowUpRight, Search } from "lucide-react";
 import data from "../data/data.json";
 
@@ -6,6 +6,8 @@ const OpenRoles = () => {
   const [query, setQuery] = useState("");
   const [team, setTeam] = useState("all");
   const [location, setLocation] = useState("all");
+  const [searchOpen, setSearchOpen] = useState(false);
+  const searchRef = useRef(null);
 
   const teams = useMemo(
     () => [...new Set(data.map((job) => job.category))],
@@ -26,32 +28,49 @@ const OpenRoles = () => {
     });
   }, [query, team, location]);
 
-  const searchOpen = query.length > 0;
+  const isSearchVisible = searchOpen || query.length > 0;
+
+  const openSearch = () => {
+    setSearchOpen(true);
+    requestAnimationFrame(() => searchRef.current?.focus());
+  };
 
   return (
     <main className="min-h-screen bg-black pt-24 text-white">
       <div className="max-w-5xl mx-auto px-6 py-16">
-        <h1 className="mt-4 mb-8 text-3xl text-center">Careers at LionPlan</h1>
+        <h1 className="mt-4 mb-16 text-3xl text-center">Careers at LionPlan</h1>
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <label className="group flex items-center gap-3 text-sm text-white/70">
-            <span title="Search roles">
-              <Search size={16} aria-hidden="true" />
-            </span>
-            <span className="shrink-0 text-white/50">{results.length} jobs</span>
+          <div className="flex items-center gap-4 text-sm text-white/70">
+            {!isSearchVisible && (
+              <button
+                type="button"
+                onClick={openSearch}
+                title="Filter jobs by title"
+                aria-label="Open job search"
+                className="shrink-0"
+              >
+                <Search size={16} aria-hidden="true" />
+              </button>
+            )}
             <input
+              ref={searchRef}
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search roles"
-              aria-label="Search roles"
-              className={`bg-transparent outline-none placeholder:text-white/50 transition-[width] duration-200 ${
-                searchOpen
-                  ? "w-48"
-                  : "w-0 group-hover:w-48 group-focus-within:w-48"
+              onBlur={() => {
+                if (!query.trim()) setSearchOpen(false);
+              }}
+              placeholder="Filter jobs by title..."
+              aria-label="Filter jobs by title"
+              className={`bg-transparent text-white placeholder:text-neutral-400 outline-none rounded-xl transition-all duration-200 ${
+                isSearchVisible
+                  ? "w-64 border border-neutral-500 px-5 py-2.5"
+                  : "w-0 border-0 px-0 py-0"
               }`}
             />
-          </label>
+            <span className="shrink-0 text-white/60">{results.length} jobs</span>
+          </div>
 
           <div className="flex gap-4">
             <select
@@ -71,7 +90,7 @@ const OpenRoles = () => {
               value={location}
               onChange={(e) => setLocation(e.target.value)}
               aria-label="Filter by location"
-              className="bg-black text-sm text-white outline-none"
+              className="bg-black text-sm text-white outline-none hover:text-white/70 transition-colors duration-200"
             >
               <option value="all">All locations</option>
               {locations.map((name) => (

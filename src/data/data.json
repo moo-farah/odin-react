@@ -5,7 +5,10 @@
     "category": "Engineering",
     "location": "San Francisco",
     "salary": 180000,
-    "tags": ["Remote", "Full-time"],
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
     "description": "Build the LionPlan web app, pricing flows, and transfer experience."
   },
   {
@@ -14,7 +17,10 @@
     "category": "Engineering",
     "location": "London",
     "salary": 165000,
-    "tags": ["Remote", "React"],
+    "tags": [
+      "Remote",
+      "React"
+    ],
     "description": "Own React UI, accessibility, and the careers and billing screens."
   },
   {
@@ -23,7 +29,10 @@
     "category": "Engineering",
     "location": "Berlin",
     "salary": 175000,
-    "tags": ["Remote", "Full-time"],
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
     "description": "Design APIs for plans, limits, and send-money status."
   },
   {
@@ -32,7 +41,10 @@
     "category": "Design",
     "location": "New York",
     "salary": 140000,
-    "tags": ["Remote", "Full-time"],
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
     "description": "Design send-money, plans, and hiring pages that stay simple under pressure."
   },
   {
@@ -41,7 +53,10 @@
     "category": "Design",
     "location": "Paris",
     "salary": 125000,
-    "tags": ["Hybrid", "Full-time"],
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
     "description": "Shape LionPlan’s visual language across web, social, and in-product UI."
   },
   {
@@ -50,7 +65,10 @@
     "category": "Product",
     "location": "Dubai",
     "salary": 160000,
-    "tags": ["Remote", "Full-time"],
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
     "description": "Set the roadmap for transfers, plans, and the public site."
   },
   {
@@ -59,7 +77,10 @@
     "category": "Operations",
     "location": "Singapore",
     "salary": 120000,
-    "tags": ["Remote", "Full-time"],
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
     "description": "Track send volume, plan usage, and where people drop off."
   },
   {
@@ -68,7 +89,10 @@
     "category": "Support",
     "location": "Nairobi",
     "salary": 90000,
-    "tags": ["Hybrid", "Full-time"],
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
     "description": "Help customers when a transfer needs a human, not a chatbot."
   },
   {
@@ -77,7 +101,10 @@
     "category": "People",
     "location": "Austin",
     "salary": 110000,
-    "tags": ["Remote", "Full-time"],
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
     "description": "Hire builders for engineering, design, and support."
   },
   {
@@ -86,7 +113,1090 @@
     "category": "Marketing",
     "location": "Toronto",
     "salary": 95000,
-    "tags": ["Remote", "Contract"],
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
     "description": "Write careers, help, and product copy that sounds like LionPlan, not a bank."
+  },
+  {
+    "id": "11",
+    "title": "Mobile engineer",
+    "category": "Engineering",
+    "location": "San Francisco",
+    "salary": 70000,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Ship the LionPlan iOS and Android apps."
+  },
+  {
+    "id": "12",
+    "title": "iOS engineer",
+    "category": "Engineering",
+    "location": "London",
+    "salary": 71373,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Build the iOS transfer and plans experience."
+  },
+  {
+    "id": "13",
+    "title": "Android engineer",
+    "category": "Engineering",
+    "location": "Berlin",
+    "salary": 72746,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Build the Android send-money flow."
+  },
+  {
+    "id": "14",
+    "title": "Full-stack engineer",
+    "category": "Engineering",
+    "location": "New York",
+    "salary": 74119,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Work across React and APIs for billing and sends."
+  },
+  {
+    "id": "15",
+    "title": "Platform engineer",
+    "category": "Engineering",
+    "location": "Paris",
+    "salary": 75492,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Keep deploy, environments, and GitHub Pages pipelines healthy."
+  },
+  {
+    "id": "16",
+    "title": "DevOps engineer",
+    "category": "Engineering",
+    "location": "Dubai",
+    "salary": 76865,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Own CI, monitoring, and release automation."
+  },
+  {
+    "id": "17",
+    "title": "Security engineer",
+    "category": "Engineering",
+    "location": "Singapore",
+    "salary": 78238,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Harden auth, payments, and data handling."
+  },
+  {
+    "id": "18",
+    "title": "QA engineer",
+    "category": "Engineering",
+    "location": "Nairobi",
+    "salary": 79611,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Write tests and catch regressions before they ship."
+  },
+  {
+    "id": "19",
+    "title": "Site reliability engineer",
+    "category": "Engineering",
+    "location": "Austin",
+    "salary": 80984,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Keep send-money uptime and latency in range."
+  },
+  {
+    "id": "20",
+    "title": "Machine learning engineer",
+    "category": "Engineering",
+    "location": "Toronto",
+    "salary": 82357,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Detect fraud and flag unusual transfer patterns."
+  },
+  {
+    "id": "21",
+    "title": "Staff engineer",
+    "category": "Engineering",
+    "location": "Tokyo",
+    "salary": 83730,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Set technical direction across the LionPlan stack."
+  },
+  {
+    "id": "22",
+    "title": "Engineering manager",
+    "category": "Engineering",
+    "location": "Seoul",
+    "salary": 85103,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Lead a squad shipping transfers and plans."
+  },
+  {
+    "id": "23",
+    "title": "UX researcher",
+    "category": "Design",
+    "location": "Sydney",
+    "salary": 86476,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Talk to senders and turn findings into product changes."
+  },
+  {
+    "id": "24",
+    "title": "UX designer",
+    "category": "Design",
+    "location": "Amsterdam",
+    "salary": 87849,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Prototype pricing and careers flows that stay simple."
+  },
+  {
+    "id": "25",
+    "title": "Visual designer",
+    "category": "Design",
+    "location": "Stockholm",
+    "salary": 89222,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Craft marketing pages and in-app illustration."
+  },
+  {
+    "id": "26",
+    "title": "Motion designer",
+    "category": "Design",
+    "location": "Dublin",
+    "salary": 90595,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Animate onboarding and transfer status without noise."
+  },
+  {
+    "id": "27",
+    "title": "Design systems lead",
+    "category": "Design",
+    "location": "Lisbon",
+    "salary": 91968,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Maintain components, tokens, and UI docs."
+  },
+  {
+    "id": "28",
+    "title": "Technical writer",
+    "category": "Marketing",
+    "location": "Barcelona",
+    "salary": 93341,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Document APIs, plans, and how to send money."
+  },
+  {
+    "id": "29",
+    "title": "Growth marketer",
+    "category": "Marketing",
+    "location": "Lagos",
+    "salary": 94714,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Run experiments that bring in new teams."
+  },
+  {
+    "id": "30",
+    "title": "Lifecycle marketer",
+    "category": "Marketing",
+    "location": "Mumbai",
+    "salary": 96087,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Write emails that help people finish a send."
+  },
+  {
+    "id": "31",
+    "title": "SEO specialist",
+    "category": "Marketing",
+    "location": "São Paulo",
+    "salary": 97460,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Help people find LionPlan from search."
+  },
+  {
+    "id": "32",
+    "title": "Social media manager",
+    "category": "Marketing",
+    "location": "Mexico City",
+    "salary": 98833,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Run LinkedIn and X with a human voice."
+  },
+  {
+    "id": "33",
+    "title": "PR manager",
+    "category": "Marketing",
+    "location": "Chicago",
+    "salary": 100206,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Tell the LionPlan story to press and partners."
+  },
+  {
+    "id": "34",
+    "title": "Community manager",
+    "category": "Marketing",
+    "location": "Seattle",
+    "salary": 101579,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Host events and keep builders talking to us."
+  },
+  {
+    "id": "35",
+    "title": "Sales development representative",
+    "category": "Sales",
+    "location": "Boston",
+    "salary": 102952,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Qualify teams that need a better send-money plan."
+  },
+  {
+    "id": "36",
+    "title": "Account executive",
+    "category": "Sales",
+    "location": "Cape Town",
+    "salary": 104325,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Close Plus and Pro deals with growing teams."
+  },
+  {
+    "id": "37",
+    "title": "Account manager",
+    "category": "Sales",
+    "location": "Helsinki",
+    "salary": 105698,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Keep existing customers shipping and expanding."
+  },
+  {
+    "id": "38",
+    "title": "Solutions engineer",
+    "category": "Sales",
+    "location": "Zurich",
+    "salary": 107071,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Show how LionPlan fits a customer’s stack."
+  },
+  {
+    "id": "39",
+    "title": "Partnerships manager",
+    "category": "Sales",
+    "location": "Vienna",
+    "salary": 108444,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Build bank and fintech partner deals."
+  },
+  {
+    "id": "40",
+    "title": "Customer success manager",
+    "category": "Support",
+    "location": "Warsaw",
+    "salary": 109817,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Help teams adopt plans and stay unblocked."
+  },
+  {
+    "id": "41",
+    "title": "Support engineer",
+    "category": "Support",
+    "location": "San Francisco",
+    "salary": 111190,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Debug failed sends with customers and engineering."
+  },
+  {
+    "id": "42",
+    "title": "Support lead",
+    "category": "Support",
+    "location": "London",
+    "salary": 112563,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Set support quality and train the floor."
+  },
+  {
+    "id": "43",
+    "title": "Operations manager",
+    "category": "Operations",
+    "location": "Berlin",
+    "salary": 113936,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Keep transfers, vendors, and SLAs on track."
+  },
+  {
+    "id": "44",
+    "title": "Compliance analyst",
+    "category": "Operations",
+    "location": "New York",
+    "salary": 115309,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Review sends against policy and local rules."
+  },
+  {
+    "id": "45",
+    "title": "Risk analyst",
+    "category": "Operations",
+    "location": "Paris",
+    "salary": 116682,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Spot abuse and freeze risky corridors quickly."
+  },
+  {
+    "id": "46",
+    "title": "Finance analyst",
+    "category": "Operations",
+    "location": "Dubai",
+    "salary": 118055,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Model plan revenue and corridor costs."
+  },
+  {
+    "id": "47",
+    "title": "Controller",
+    "category": "Operations",
+    "location": "Singapore",
+    "salary": 119428,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Own books, payouts, and audit readiness."
+  },
+  {
+    "id": "48",
+    "title": "Legal counsel",
+    "category": "Operations",
+    "location": "Nairobi",
+    "salary": 120801,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Advise on terms, privacy, and hiring contracts."
+  },
+  {
+    "id": "49",
+    "title": "Office manager",
+    "category": "People",
+    "location": "Austin",
+    "salary": 122174,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Run the office so builders can focus on shipping."
+  },
+  {
+    "id": "50",
+    "title": "People operations",
+    "category": "People",
+    "location": "Toronto",
+    "salary": 123547,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Run onboarding, benefits, and employee questions."
+  },
+  {
+    "id": "51",
+    "title": "Technical recruiter",
+    "category": "People",
+    "location": "Tokyo",
+    "salary": 124920,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Hire engineers who can own a problem end to end."
+  },
+  {
+    "id": "52",
+    "title": "Design recruiter",
+    "category": "People",
+    "location": "Seoul",
+    "salary": 126293,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Hire designers who care about money-moving UX."
+  },
+  {
+    "id": "53",
+    "title": "Intern, engineering",
+    "category": "Engineering",
+    "location": "Sydney",
+    "salary": 127666,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Pair with a squad and ship a real transfer feature."
+  },
+  {
+    "id": "54",
+    "title": "Intern, design",
+    "category": "Design",
+    "location": "Amsterdam",
+    "salary": 129039,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Support research and visual work on live pages."
+  },
+  {
+    "id": "55",
+    "title": "Intern, marketing",
+    "category": "Marketing",
+    "location": "Stockholm",
+    "salary": 130412,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Help with careers copy and launch notes."
+  },
+  {
+    "id": "56",
+    "title": "Mobile engineer II",
+    "category": "Engineering",
+    "location": "Dublin",
+    "salary": 131785,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Ship the LionPlan iOS and Android apps."
+  },
+  {
+    "id": "57",
+    "title": "iOS engineer II",
+    "category": "Engineering",
+    "location": "Lisbon",
+    "salary": 133158,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Build the iOS transfer and plans experience."
+  },
+  {
+    "id": "58",
+    "title": "Android engineer II",
+    "category": "Engineering",
+    "location": "Barcelona",
+    "salary": 134531,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Build the Android send-money flow."
+  },
+  {
+    "id": "59",
+    "title": "Full-stack engineer II",
+    "category": "Engineering",
+    "location": "Lagos",
+    "salary": 135904,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Work across React and APIs for billing and sends."
+  },
+  {
+    "id": "60",
+    "title": "Platform engineer II",
+    "category": "Engineering",
+    "location": "Mumbai",
+    "salary": 137277,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Keep deploy, environments, and GitHub Pages pipelines healthy."
+  },
+  {
+    "id": "61",
+    "title": "DevOps engineer II",
+    "category": "Engineering",
+    "location": "São Paulo",
+    "salary": 138650,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Own CI, monitoring, and release automation."
+  },
+  {
+    "id": "62",
+    "title": "Security engineer II",
+    "category": "Engineering",
+    "location": "Mexico City",
+    "salary": 140023,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Harden auth, payments, and data handling."
+  },
+  {
+    "id": "63",
+    "title": "QA engineer II",
+    "category": "Engineering",
+    "location": "Chicago",
+    "salary": 141396,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Write tests and catch regressions before they ship."
+  },
+  {
+    "id": "64",
+    "title": "Site reliability engineer II",
+    "category": "Engineering",
+    "location": "Seattle",
+    "salary": 142769,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Keep send-money uptime and latency in range."
+  },
+  {
+    "id": "65",
+    "title": "Machine learning engineer II",
+    "category": "Engineering",
+    "location": "Boston",
+    "salary": 144142,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Detect fraud and flag unusual transfer patterns."
+  },
+  {
+    "id": "66",
+    "title": "Staff engineer II",
+    "category": "Engineering",
+    "location": "Cape Town",
+    "salary": 145515,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Set technical direction across the LionPlan stack."
+  },
+  {
+    "id": "67",
+    "title": "Engineering manager II",
+    "category": "Engineering",
+    "location": "Helsinki",
+    "salary": 146888,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Lead a squad shipping transfers and plans."
+  },
+  {
+    "id": "68",
+    "title": "UX researcher II",
+    "category": "Design",
+    "location": "Zurich",
+    "salary": 148261,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Talk to senders and turn findings into product changes."
+  },
+  {
+    "id": "69",
+    "title": "UX designer II",
+    "category": "Design",
+    "location": "Vienna",
+    "salary": 149634,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Prototype pricing and careers flows that stay simple."
+  },
+  {
+    "id": "70",
+    "title": "Visual designer II",
+    "category": "Design",
+    "location": "Warsaw",
+    "salary": 151007,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Craft marketing pages and in-app illustration."
+  },
+  {
+    "id": "71",
+    "title": "Motion designer II",
+    "category": "Design",
+    "location": "San Francisco",
+    "salary": 152380,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Animate onboarding and transfer status without noise."
+  },
+  {
+    "id": "72",
+    "title": "Design systems lead II",
+    "category": "Design",
+    "location": "London",
+    "salary": 153753,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Maintain components, tokens, and UI docs."
+  },
+  {
+    "id": "73",
+    "title": "Technical writer II",
+    "category": "Marketing",
+    "location": "Berlin",
+    "salary": 155126,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Document APIs, plans, and how to send money."
+  },
+  {
+    "id": "74",
+    "title": "Growth marketer II",
+    "category": "Marketing",
+    "location": "New York",
+    "salary": 156499,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Run experiments that bring in new teams."
+  },
+  {
+    "id": "75",
+    "title": "Lifecycle marketer II",
+    "category": "Marketing",
+    "location": "Paris",
+    "salary": 157872,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Write emails that help people finish a send."
+  },
+  {
+    "id": "76",
+    "title": "SEO specialist II",
+    "category": "Marketing",
+    "location": "Dubai",
+    "salary": 159245,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Help people find LionPlan from search."
+  },
+  {
+    "id": "77",
+    "title": "Social media manager II",
+    "category": "Marketing",
+    "location": "Singapore",
+    "salary": 160618,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Run LinkedIn and X with a human voice."
+  },
+  {
+    "id": "78",
+    "title": "PR manager II",
+    "category": "Marketing",
+    "location": "Nairobi",
+    "salary": 161991,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Tell the LionPlan story to press and partners."
+  },
+  {
+    "id": "79",
+    "title": "Community manager II",
+    "category": "Marketing",
+    "location": "Austin",
+    "salary": 163364,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Host events and keep builders talking to us."
+  },
+  {
+    "id": "80",
+    "title": "Sales development representative II",
+    "category": "Sales",
+    "location": "Toronto",
+    "salary": 164737,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Qualify teams that need a better send-money plan."
+  },
+  {
+    "id": "81",
+    "title": "Account executive II",
+    "category": "Sales",
+    "location": "Tokyo",
+    "salary": 166110,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Close Plus and Pro deals with growing teams."
+  },
+  {
+    "id": "82",
+    "title": "Account manager II",
+    "category": "Sales",
+    "location": "Seoul",
+    "salary": 167483,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Keep existing customers shipping and expanding."
+  },
+  {
+    "id": "83",
+    "title": "Solutions engineer II",
+    "category": "Sales",
+    "location": "Sydney",
+    "salary": 168856,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Show how LionPlan fits a customer’s stack."
+  },
+  {
+    "id": "84",
+    "title": "Partnerships manager II",
+    "category": "Sales",
+    "location": "Amsterdam",
+    "salary": 170229,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Build bank and fintech partner deals."
+  },
+  {
+    "id": "85",
+    "title": "Customer success manager II",
+    "category": "Support",
+    "location": "Stockholm",
+    "salary": 171602,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Help teams adopt plans and stay unblocked."
+  },
+  {
+    "id": "86",
+    "title": "Support engineer II",
+    "category": "Support",
+    "location": "Dublin",
+    "salary": 172975,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Debug failed sends with customers and engineering."
+  },
+  {
+    "id": "87",
+    "title": "Support lead II",
+    "category": "Support",
+    "location": "Lisbon",
+    "salary": 174348,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Set support quality and train the floor."
+  },
+  {
+    "id": "88",
+    "title": "Operations manager II",
+    "category": "Operations",
+    "location": "Barcelona",
+    "salary": 175721,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Keep transfers, vendors, and SLAs on track."
+  },
+  {
+    "id": "89",
+    "title": "Compliance analyst II",
+    "category": "Operations",
+    "location": "Lagos",
+    "salary": 177094,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Review sends against policy and local rules."
+  },
+  {
+    "id": "90",
+    "title": "Risk analyst II",
+    "category": "Operations",
+    "location": "Mumbai",
+    "salary": 178467,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Spot abuse and freeze risky corridors quickly."
+  },
+  {
+    "id": "91",
+    "title": "Finance analyst II",
+    "category": "Operations",
+    "location": "São Paulo",
+    "salary": 179840,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Model plan revenue and corridor costs."
+  },
+  {
+    "id": "92",
+    "title": "Controller II",
+    "category": "Operations",
+    "location": "Mexico City",
+    "salary": 181213,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Own books, payouts, and audit readiness."
+  },
+  {
+    "id": "93",
+    "title": "Legal counsel II",
+    "category": "Operations",
+    "location": "Chicago",
+    "salary": 182586,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Advise on terms, privacy, and hiring contracts."
+  },
+  {
+    "id": "94",
+    "title": "Office manager II",
+    "category": "People",
+    "location": "Seattle",
+    "salary": 183959,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Run the office so builders can focus on shipping."
+  },
+  {
+    "id": "95",
+    "title": "People operations II",
+    "category": "People",
+    "location": "Boston",
+    "salary": 185332,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Run onboarding, benefits, and employee questions."
+  },
+  {
+    "id": "96",
+    "title": "Technical recruiter II",
+    "category": "People",
+    "location": "Cape Town",
+    "salary": 186705,
+    "tags": [
+      "Remote",
+      "Full-time"
+    ],
+    "description": "Hire engineers who can own a problem end to end."
+  },
+  {
+    "id": "97",
+    "title": "Design recruiter II",
+    "category": "People",
+    "location": "Helsinki",
+    "salary": 188078,
+    "tags": [
+      "Hybrid",
+      "Full-time"
+    ],
+    "description": "Hire designers who care about money-moving UX."
+  },
+  {
+    "id": "98",
+    "title": "Intern, engineering II",
+    "category": "Engineering",
+    "location": "Zurich",
+    "salary": 189451,
+    "tags": [
+      "On-site",
+      "Full-time"
+    ],
+    "description": "Pair with a squad and ship a real transfer feature."
+  },
+  {
+    "id": "99",
+    "title": "Intern, design II",
+    "category": "Design",
+    "location": "Vienna",
+    "salary": 190824,
+    "tags": [
+      "Remote",
+      "Contract"
+    ],
+    "description": "Support research and visual work on live pages."
+  },
+  {
+    "id": "100",
+    "title": "Intern, marketing II",
+    "category": "Marketing",
+    "location": "Warsaw",
+    "salary": 192197,
+    "tags": [
+      "Hybrid",
+      "Contract"
+    ],
+    "description": "Help with careers copy and launch notes."
   }
 ]
