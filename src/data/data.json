@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Software engineer",
+    "category": "Engineering",
+    "location": "San Francisco",
+    "salary": 180000,
+    "tags": ["Remote", "Full-time"],
+    "description": "Build the LionPlan web app, pricing flows, and transfer experience."
+  },
+  {
+    "id": "2",
+    "title": "Frontend engineer",
+    "category": "Engineering",
+    "location": "London",
+    "salary": 165000,
+    "tags": ["Remote", "React"],
+    "description": "Own React UI, accessibility, and the careers and billing screens."
+  },
+  {
+    "id": "3",
+    "title": "Backend engineer",
+    "category": "Engineering",
+    "location": "Berlin",
+    "salary": 175000,
+    "tags": ["Remote", "Full-time"],
+    "description": "Design APIs for plans, limits, and send-money status."
+  },
+  {
+    "id": "4",
+    "title": "Product designer",
+    "category": "Design",
+    "location": "New York",
+    "salary": 140000,
+    "tags": ["Remote", "Full-time"],
+    "description": "Design send-money, plans, and hiring pages that stay simple under pressure."
+  },
+  {
+    "id": "5",
+    "title": "Brand designer",
+    "category": "Design",
+    "location": "Paris",
+    "salary": 125000,
+    "tags": ["Hybrid", "Full-time"],
+    "description": "Shape LionPlan’s visual language across web, social, and in-product UI."
+  },
+  {
+    "id": "6",
+    "title": "Product manager",
+    "category": "Product",
+    "location": "Dubai",
+    "salary": 160000,
+    "tags": ["Remote", "Full-time"],
+    "description": "Set the roadmap for transfers, plans, and the public site."
+  },
+  {
+    "id": "7",
+    "title": "Data analyst",
+    "category": "Operations",
+    "location": "Singapore",
+    "salary": 120000,
+    "tags": ["Remote", "Full-time"],
+    "description": "Track send volume, plan usage, and where people drop off."
+  },
+  {
+    "id": "8",
+    "title": "Support specialist",
+    "category": "Support",
+    "location": "Nairobi",
+    "salary": 90000,
+    "tags": ["Hybrid", "Full-time"],
+    "description": "Help customers when a transfer needs a human, not a chatbot."
+  },
+  {
+    "id": "9",
+    "title": "Recruiter",
+    "category": "People",
+    "location": "Austin",
+    "salary": 110000,
+    "tags": ["Remote", "Full-time"],
+    "description": "Hire builders for engineering, design, and support."
+  },
+  {
+    "id": "10",
+    "title": "Content writer",
+    "category": "Marketing",
+    "location": "Toronto",
+    "salary": 95000,
+    "tags": ["Remote", "Contract"],
+    "description": "Write careers, help, and product copy that sounds like LionPlan, not a bank."
+  }
+]

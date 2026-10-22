@@ -6,7 +6,7 @@ import Products from "./pages/Products"
 import Resources from "./pages/Resources"
 import Pricing from "./pages/Pricing"
 import Careers from "./pages/Careers"
-
+import OpenRoles from "./pages/OpenRoles"
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/resources" element={<Resources />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/careers/roles" element={<OpenRoles />} />
       </Routes>
       <Footer />
     </>
