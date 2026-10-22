@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from "react";
+import { useLayoutEffect, useMemo, useRef, useState } from "react";
 import { ArrowUpRight, Search } from "lucide-react";
 import data from "../data/data.json";
 
@@ -28,11 +28,18 @@ const OpenRoles = () => {
     });
   }, [query, team, location]);
 
-  const isSearchVisible = searchOpen || query.length > 0;
+  useLayoutEffect(() => {
+    if (searchOpen) {
+      searchRef.current?.focus();
+    }
+  }, [searchOpen]);
 
-  const openSearch = () => {
-    setSearchOpen(true);
-    requestAnimationFrame(() => searchRef.current?.focus());
+  const openSearch = () => setSearchOpen(true);
+
+  const closeSearch = () => {
+    if (!query.trim()) {
+      setSearchOpen(false);
+    }
   };
 
   return (
@@ -42,7 +49,7 @@ const OpenRoles = () => {
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-4 text-sm text-white/70">
-            {!isSearchVisible && (
+            {!searchOpen && (
               <button
                 type="button"
                 onClick={openSearch}
@@ -58,13 +65,17 @@ const OpenRoles = () => {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              onBlur={() => {
-                if (!query.trim()) setSearchOpen(false);
+              onBlur={closeSearch}
+              onKeyDown={(e) => {
+                if (e.key === "Escape") {
+                  setQuery("");
+                  setSearchOpen(false);
+                }
               }}
               placeholder="Filter jobs by title..."
               aria-label="Filter jobs by title"
               className={`bg-transparent text-white placeholder:text-neutral-400 outline-none rounded-xl transition-all duration-200 ${
-                isSearchVisible
+                searchOpen
                   ? "w-64 border border-neutral-500 px-5 py-2.5"
                   : "w-0 border-0 px-0 py-0"
               }`}
