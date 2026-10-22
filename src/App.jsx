@@ -11,19 +11,17 @@ import Careers from "./pages/Careers"
 const App = () => {
   return (
     <>
+  <>
       <Navbar />
       <Routes>
-        <Route path="/" element={
-          <>
-            <MainContent />
-            <Footer />
-          </>
-        } />
+        <Route path="/" element={<MainContent />} />
         <Route path="/products" element={<Products />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/careers" element={<Careers />} />
       </Routes>
+      <Footer />
+    </>
     </>
   )
 }

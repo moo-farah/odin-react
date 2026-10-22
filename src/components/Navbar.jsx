@@ -6,6 +6,7 @@ const Navbar = () => {
     { href: "/products", label: "Products" },
     { href: "/resources", label: "Resources" },
     { href: "/pricing", label: "Pricing" },
+    { href: "/careers", label: "Careers" },
   ];
 
   return (
@@ -30,7 +31,7 @@ const Navbar = () => {
                         <Link
                         key={item.label}
                         to={item.href}
-                        className='rounded-lg px-3 py-1.5 text-sm text-[0.875rem] tracking-[-0.01em] text-white/70 outline-none transition-colors duration-150 hover:text-white font-medium focus-visible:ring-2 focus-visible:ring-white'
+                        className='rounded-lg px-3 py-1.5 text-sm text-[0.875rem] tracking-[-0.01em] text-white/70 outline-none transition-colors duration-150 hover:text-white focus-visible:ring-2 focus-visible:ring-white'
                         >
                             {item.label}
                         </Link>

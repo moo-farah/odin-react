@@ -1,5 +1,3 @@
-import Footer from "../components/Footer"
-
 const Careers = () => {
 
   const handleClick = (e) => {
@@ -7,19 +5,23 @@ const Careers = () => {
     console.log('Clicked view open roles');
   }
 
+  const SKY =
+  "bg-[linear-gradient(to_bottom,#03225a_0%,#0c3f86_24%,#2f74c4_46%,#7fb6e4_66%,#cfe4f3_82%,#ffffff_100%)]";
+
   return (
     <>
-    <div className="max-w-7xl max-auto p-12 flex flex-col items-center justify-center">
-      <h5>Company</h5>
-      <div className="mt-4">
-        <h3 className="text-5xl mb-2 text-center">Develop safe, beneficial AI systems</h3>
-        <p className="mb-4 text-center">We're looking for curious minds from a wide range of disciplines and backgrounds.</p>
-      </div>
+    <div className={`${SKY}  pt-24 w-full flex flex-col items-center justify-center`}
+    >
+      <div className="max-w-7xl mx-auto p-12 flex flex-col items-center justify-center">
+        <h5 className='text-white/70 text-2xl'>Company</h5>
+        <div className="mt-4">
+          <h3 className="text-white text-5xl mb-2 text-center">We only hire builders</h3>
+          <p className="text-white/70 mb-4 text-center">Come here to solve hard problems, build without permission, and ship work you’re proud of. Sounds intense? It is.</p>
+        </div>
 
-      <button className="bg-gray-950 hover:bg-gray-700 text-white px-4 py-2 rounded-full text-sm transition-colors" onClick={handleClick}>View open roles</button>
-   
+        <button className="bg-white/70 hover:bg-white/90 text-[#03225a] px-4 py-2 rounded-full text-sm transition-colors" onClick={handleClick}>View open roles</button>
+      </div>
     </div>
-    <Footer />
     </>
   )
 }
