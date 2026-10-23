@@ -1,71 +1,88 @@
 import { Link } from "react-router-dom";
 
-const footerLinks = [
+const footerColumns = [
   {
-    title: "Products",
+    title: "Product",
     links: [
-      { name: "Products", href: "/products" },
-      { name: "Pricing", href: "/pricing" },
-      { name: "Get started", href: "/pricing" },
+      { name: "Overview", href: "/", internal: true },
+      { name: "Plans & pricing", href: "/pricing", internal: true },
+      { name: "How transfers work", href: "/resources", internal: true },
     ],
   },
   {
-    title: "Resources",
+    title: "Plans",
     links: [
-      { name: "Resources", href: "/resources" },
-      { name: "Help", href: "/resources" },
+      { name: "Basic", href: "/pricing", internal: true },
+      { name: "Plus", href: "/pricing", internal: true },
+      { name: "Pro", href: "/pricing", internal: true },
+      { name: "Get started", href: "/pricing", internal: true },
+    ],
+  },
+  {
+    title: "Business",
+    links: [
+      { name: "For teams", href: "/pricing", internal: true },
+      { name: "Resources", href: "/resources", internal: true },
+      { name: "Support", href: "/resources", internal: true },
     ],
   },
   {
     title: "Company",
     links: [
-      { name: "Home", href: "/" },
-      { name: "Careers", href: "/careers" },
+      { name: "About", href: "/about", internal: true },
+      { name: "Careers", href: "/careers", internal: true },
+      { name: "Open roles", href: "/careers/roles", internal: true },
     ],
   },
   {
-    title: "Legal",
+    title: "More",
     links: [
-      { name: "Privacy", href: "/" },
-      { name: "Terms", href: "/" },
+      { name: "Home", href: "/", internal: true },
+      { name: "Privacy", href: "/", internal: true },
+      { name: "Terms", href: "/", internal: true },
     ],
   },
 ];
 
-
-
-
+const linkClass = "text-sm text-white/45 hover:text-white";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className='mx-auto max-w-7xl bg-white/70 text-[#121212 px-5 py-12 sm:px-8 sm:py-16'>
-      <div className=''>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-8'>
-          {footerLinks.map((link) => (
-            <div key={link.title}>
-              <h3 className='text-md font-medium tracking-[-0.01em] text-gray-900'>{link.title}</h3>
-              <ul className='mt-4 space-y-2'>
-                {link.links.map((link) => (
-                  <li key={link.name}>
-                    <Link 
-                    to={link.href}
-                    className='text-sm text-gray-500 hover:text-gray-900'
-                    >
+    <footer className="bg-black text-white">
+    <div className="mx-auto max-w-7xl px-6 py-16 sm:px-8 sm:py-20">
+      <div className="grid grid-cols-2 gap-x-8 gap-y-12 sm:grid-cols-3 lg:grid-cols-5">
+        {footerColumns.map((column) => (
+          <div key={column.title}>
+            <h3 className="text-lg font-normal text-white">{column.title}</h3>
+            <ul className="mt-5 space-y-3">
+              {column.links.map((link) => (
+                <li key={link.name}>
+                  {link.internal ? (
+                    <Link to={link.href} className={linkClass}>
                       {link.name}
                     </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-        <div className='border border-gray-100 mt-6 w-full'></div>
-        <p className='text-sm text-gray-600 mt-12'>
-          &copy; {currentYear} LionPlan. All rights reserved.
-        </p>
+                  ) : (
+                    <a
+                      href={link.href}
+                      className={linkClass}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {link.name}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-    </footer>
-  )
+      <p className="mt-16 text-sm text-white/40">
+        © {currentYear} LionPlan. All rights reserved.
+      </p>
+    </div>
+  </footer>
+  );
 }
 
-export default Footer
+export default Footer;

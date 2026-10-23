@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import MainContent from "./components/MainContent"
 import Footer from "./components/Footer"
-import Products from "./pages/Products"
+import About from "./pages/About"
 import Resources from "./pages/Resources"
 import Pricing from "./pages/Pricing"
 import Careers from "./pages/Careers"
@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<MainContent />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/about" element={<About />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/careers" element={<Careers />} />
