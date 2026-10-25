@@ -4,7 +4,7 @@ import logo from "../assets/icon.png";
 const Navbar = () => {
   const navItems = [
     { href: "/about", label: "About" },
-    { href: "/resources", label: "Resources" },
+    { href: "/teams", label: "Teams" },
     { href: "/pricing", label: "Pricing" },
     { href: "/careers", label: "Careers" },
   ];

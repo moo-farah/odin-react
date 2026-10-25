@@ -6,7 +6,7 @@ const footerColumns = [
     links: [
       { name: "Overview", href: "/", internal: true },
       { name: "Plans & pricing", href: "/pricing", internal: true },
-      { name: "How transfers work", href: "/resources", internal: true },
+      { name: "How transfers work", href: "/teams", internal: true },
     ],
   },
   {
@@ -22,8 +22,8 @@ const footerColumns = [
     title: "Business",
     links: [
       { name: "For teams", href: "/pricing", internal: true },
-      { name: "Resources", href: "/resources", internal: true },
-      { name: "Support", href: "/resources", internal: true },
+      { name: "Teams", href: "/teams", internal: true },
+      { name: "Support", href: "/teams", internal: true },
     ],
   },
   {
